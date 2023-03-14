@@ -1,14 +1,8 @@
 <?php
-	//start session
-	session_start();
-
-	//crud with database connection
 	include_once('BrainStation.php');
-
 	$bs23 = new BrainStation();
 
 	//fetch data
-	
 
 	$sql = "SELECT SUM(A1.TotalItem) AS TotalItem , B1.Name AS CategoryName,
 			

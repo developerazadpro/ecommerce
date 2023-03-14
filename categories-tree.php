@@ -1,10 +1,5 @@
 <?php
-	//start session
-	session_start();
-
-	//crud with database connection
 	include_once('BrainStation.php');
-
 	$bs23 = new BrainStation();
 
 
@@ -47,7 +42,7 @@
 				UNION ALL
                 
                 SELECT category.Id as id, category.Name as name, 0 as parent_id FROM category WHERE NOT EXISTS ( 
-					SELECT categoryId FROM catetory_relations WHERE catetory_relations.categoryId = category.Id)   ORDER BY `id` ASC
+					SELECT categoryId FROM catetory_relations WHERE catetory_relations.categoryId = category.Id)   ORDER BY name ASC
 				");
 
 				
