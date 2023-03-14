@@ -60,7 +60,7 @@
 </head>
 <body>
 <div class="container">
-	<!-- <h2 class="page-header text-center">Brain Station 23 | Task 01</h2> -->
+	<h2 class="page-header text-center">Brain Station 23 | Task 01</h2>
 	<div class="row">
 		<div class="col-sm-6 col-sm-offset-3">
 			

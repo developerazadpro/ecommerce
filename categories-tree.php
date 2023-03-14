@@ -23,47 +23,11 @@
 			margin: 40px 0 20px;
 			border-bottom: none;
 		}
-		.just-padding {
-			padding: 15px;
-		}
-
-		.list-group.list-group-root {
-			padding: 0;
-			overflow: hidden;
-		}
-
-		.list-group.list-group-root .list-group {
-			margin-bottom: 0;
-		}
-
-		.list-group.list-group-root .list-group-item {
-			border-radius: 0;
-			border-width: 1px 0 0 0;
-		}
-
-		.list-group.list-group-root > .list-group-item:first-child {
-			border-top-width: 0;
-		}
-
-		.list-group.list-group-root > .list-group > .list-group-item {
-			padding-left: 30px;
-		}
-
-		.list-group.list-group-root > .list-group > .list-group > .list-group-item {
-			padding-left: 45px;
-		}
-		.list-group.list-group-root > .list-group > .list-group > .list-group > .list-group-item {
-			padding-left: 60px;
-		}
-
-		.list-group.list-group-root > .list-group > .list-group > .list-group > .list-group > .list-group-item {
-			padding-left: 75px;
-		}
 	</style>
 </head>
 <body>
 <div class="container">
-	<!-- <h2 class="page-header text-center">Brain Station 23 | Task 02</h2> -->
+	<h2 class="page-header text-center">Brain Station 23 | Task 02</h2>
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
 			
